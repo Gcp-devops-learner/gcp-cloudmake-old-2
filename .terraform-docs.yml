@@ -1,0 +1,19 @@
+formatter: markdown table
+header-from: main.tf
+sort:
+  enabled: true
+  by: name
+sections:
+  show:
+    - header
+    - requirements
+    - modules
+    - inputs
+settings:
+  indent: 4
+  escape: true
+  default: true
+  required: true
+  type: true
+  lockfile: false
+  hide-empty: true

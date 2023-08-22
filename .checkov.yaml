@@ -1,0 +1,6 @@
+download-external-modules: false
+evaluate-variables: true
+framework:
+- terraform
+skip-path:
+- modules
